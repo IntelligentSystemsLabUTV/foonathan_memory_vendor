@@ -1,4 +1,6 @@
-# foonathan_memory_vendor
+# IntelligentSystemsLabUTV/foonathan_memory_vendor
+
+**This is a fork of eProsima/foonathan_memory_vendor, for internal use only.**
 
 Vendor package for foonathan/memory: https://github.com/foonathan/memory
 
