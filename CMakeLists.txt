@@ -3,7 +3,9 @@ project(foonathan_memory_vendor VERSION "1.1.0")
 
 find_package(foonathan_memory QUIET)
 
-if(NOT foonathan_memory_FOUND)
+option(FORCE_INSTALL "Forces foonathan_memory installation" OFF)
+
+if(FORCE_INSTALL OR NOT foonathan_memory_FOUND)
   ###############################################################################
   # Default shared libraries
   ###############################################################################
